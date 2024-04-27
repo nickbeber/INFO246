@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://test-books.org",
+      "@type": "Fiction",
+      "id": "1",
+      "name": "The Way of Kings",
+      "description": "Epic fantasy novel with intricate world-building and complex characters."
+    },
+    {
+      "@context": "https://test-books.org",
+      "@type": "Fiction",
+      "id": "2",
+      "name": "Small Gods",
+      "description": "Discover the hilarious tale of a forgotten god in Discworld, filled with humor and satire."
+    },
+    {
+      "@context": "https://test-books.org",
+      "@type": "Fiction",
+      "id": "3",
+      "name": "The Fifth Season",
+      "description": "A tale of a world constantly plagued by catastrophic seismic events, individuals with extraordinary powers, and a search for a daughter amidst chaos."
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://test-books.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "Nick B",
+      "description": "My favorite book.",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://test-books.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "Lalitha B",
+      "description": "The book is okay.",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://test-books.org/",
+    "@type": "Collection",
+    "name": "nickbeber's API",
+    "creator": "nickbeber",
+    "about": "A collection of books",
+    "url": "https://www.nickbeber.info"
+  }
+}
